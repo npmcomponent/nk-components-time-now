@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <script src="build/build.js"></script>
+  <script>
+    var now = require('time-now');
+    var prev = now();
+
+    setInterval(function() {
+      console.log(now() - prev);
+      prev = now();
+    }, 500);
+  </script>
+</head>
+<body>
+</body>
+</html>
