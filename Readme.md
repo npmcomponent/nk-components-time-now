@@ -1,4 +1,6 @@
 
+[![browser support](https://ci.testling.com/nk-components/time-now.png)](https://ci.testling.com/nk-components/time-now)
+
 # time-now
 
   Returns a timestamp using Performance.now or Date.now
