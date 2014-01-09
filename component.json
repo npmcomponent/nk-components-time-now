@@ -2,7 +2,7 @@
   "name": "time-now",
   "repo": "nk-components/time-now",
   "description": "Returns a timestamp using Performance.now or Date.now",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "keywords": ["date", "timestamp", "now", "current", "time"],
   "dependencies": {},
   "development": {},
