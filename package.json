@@ -7,11 +7,35 @@
     "type": "git",
     "url": "git://github.com/nk-components/time-now.git"
   },
-  "keywords": [ "date", "time", "now", "performance" ],
+  "scripts": {
+    "test": "tape tests/*.js"
+  },
+  "keywords": [
+    "date",
+    "time",
+    "now",
+    "performance"
+  ],
   "author": "kewah",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/nk-components/time-now/issues"
   },
-  "homepage": "https://github.com/nk-components/time-now"
+  "homepage": "https://github.com/nk-components/time-now",
+  "devDependencies": {
+    "tape": "~2.3.2"
+  },
+  "testling": {
+    "files": "tests/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/28..latest",
+      "firefox/22..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/4.2"
+    ]
+  }
 }
