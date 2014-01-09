@@ -5,6 +5,8 @@
 
 ## Installation
 
+    $ npm install time-now
+
   Install with [component(1)](http://component.io):
 
     $ component install nk-components/time-now
