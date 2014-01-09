@@ -1,0 +1,17 @@
+{
+  "name": "time-now",
+  "version": "0.1.0",
+  "description": "Returns a timestamp using Performance.now or Date.now",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nk-components/time-now.git"
+  },
+  "keywords": [ "date", "time", "now", "performance" ],
+  "author": "kewah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nk-components/time-now/issues"
+  },
+  "homepage": "https://github.com/nk-components/time-now"
+}
