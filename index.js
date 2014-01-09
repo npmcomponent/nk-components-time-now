@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = (function() {
-  var perf = window.performance;
+  var perf = window && window.performance;
   if (perf && perf.now) {
     return perf.now.bind(perf);
   } else {
